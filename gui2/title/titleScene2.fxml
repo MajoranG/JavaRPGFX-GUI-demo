@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="titleScene2Pane" fx:id="titleScene2Pane" maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui2.title.TitleScene2Controller">
+   <children>
+      <Label layoutX="225.0" layoutY="48.0" prefHeight="51.0" prefWidth="150.0" text="なまえは？" textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="119.0" prefHeight="41.0" prefWidth="370.0" text="A　B　C　D　E　F　G　H 　I　 J　K　L　M" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="153.0" prefHeight="41.0" prefWidth="370.0" text="N   O　P　Q   R　S　T　U   V　W   X　Y　Z" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="nextToButtonLabel" fx:id="nextToButtonLabel" layoutX="452.0" layoutY="306.0" text="けってい" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="nameTextLabel" fx:id="nameTextLabel" layoutX="247.0" layoutY="299.0" prefHeight="41.0" prefWidth="106.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label id="backToButtonLabel" fx:id="backToButtonLabel" layoutX="95.0" layoutY="306.0" text="もどる" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView id="cursor" fx:id="cursor" layoutX="96.0" layoutY="131.0">
+         <image>
+            <Image url="@../../asset/cursor.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
